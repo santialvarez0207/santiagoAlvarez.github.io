@@ -105,6 +105,8 @@
         position: static;
         width: 95%;
         height: 90%;
+         padding: 10px 0px;
+        box-sizing: border-box;
         flex-direction: column;
     }
 
@@ -112,11 +114,14 @@
         width: 300px;
         height: 350px;
     }
-
+    #close{
+        top: 5%;
+        right: 2.5%;
+    }
     .descripcion{
         width: 300px;
-        margin: 10px 0px;
-        height: calc(100% - 400px);
+        margin-top: 10px;
+        height: calc(100% - 380px);
     }
     .zona p, .zona h3{
         font-size: 1em;

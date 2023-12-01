@@ -139,22 +139,23 @@
        
        #puntos1{
            top: 2650px;
-           right:100px;
+
        }
        
        #puntos2{
            top: 800px;
-           left:60px;
        }
        
        #burbuja{
            display: none;
        }
-       
-       
-       
        #puntos3{
            top: 2100px;
-           left:100px;
+       }
+
+
+       #puntos1,#puntos2,#puntos3{
+        width:90%;
+        left: 5%;
        }
 }
